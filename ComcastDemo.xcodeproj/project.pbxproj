@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DFE477827A660DA005C8F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE477727A660DA005C8F3A /* AppDelegate.swift */; };
+		1DFE477A27A660DA005C8F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE477927A660DA005C8F3A /* SceneDelegate.swift */; };
+		1DFE477C27A660DA005C8F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE477B27A660DA005C8F3A /* ViewController.swift */; };
+		1DFE477F27A660DA005C8F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE477D27A660DA005C8F3A /* Main.storyboard */; };
+		1DFE478127A660DB005C8F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE478027A660DB005C8F3A /* Assets.xcassets */; };
+		1DFE478427A660DB005C8F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE478227A660DB005C8F3A /* LaunchScreen.storyboard */; };
+		1DFE478F27A660DC005C8F3A /* ComcastDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE478E27A660DC005C8F3A /* ComcastDemoTests.swift */; };
+		1DFE479927A660DC005C8F3A /* ComcastDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE479827A660DC005C8F3A /* ComcastDemoUITests.swift */; };
+		1DFE479B27A660DC005C8F3A /* ComcastDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE479A27A660DC005C8F3A /* ComcastDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DFE478B27A660DC005C8F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFE476C27A660DA005C8F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DFE477327A660DA005C8F3A;
+			remoteInfo = ComcastDemo;
+		};
+		1DFE479527A660DC005C8F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFE476C27A660DA005C8F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DFE477327A660DA005C8F3A;
+			remoteInfo = ComcastDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DFE477427A660DA005C8F3A /* ComcastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComcastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE477727A660DA005C8F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DFE477927A660DA005C8F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DFE477B27A660DA005C8F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DFE477E27A660DA005C8F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DFE478027A660DB005C8F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DFE478327A660DB005C8F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DFE478527A660DB005C8F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFE478A27A660DC005C8F3A /* ComcastDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE478E27A660DC005C8F3A /* ComcastDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastDemoTests.swift; sourceTree = "<group>"; };
+		1DFE479427A660DC005C8F3A /* ComcastDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE479827A660DC005C8F3A /* ComcastDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastDemoUITests.swift; sourceTree = "<group>"; };
+		1DFE479A27A660DC005C8F3A /* ComcastDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DFE477127A660DA005C8F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE478727A660DC005C8F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE479127A660DC005C8F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFE476B27A660DA005C8F3A = {
+			isa = PBXGroup;
+			children = (
+				1DFE477627A660DA005C8F3A /* ComcastDemo */,
+				1DFE478D27A660DC005C8F3A /* ComcastDemoTests */,
+				1DFE479727A660DC005C8F3A /* ComcastDemoUITests */,
+				1DFE477527A660DA005C8F3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DFE477527A660DA005C8F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE477427A660DA005C8F3A /* ComcastDemo.app */,
+				1DFE478A27A660DC005C8F3A /* ComcastDemoTests.xctest */,
+				1DFE479427A660DC005C8F3A /* ComcastDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DFE477627A660DA005C8F3A /* ComcastDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE477727A660DA005C8F3A /* AppDelegate.swift */,
+				1DFE477927A660DA005C8F3A /* SceneDelegate.swift */,
+				1DFE477B27A660DA005C8F3A /* ViewController.swift */,
+				1DFE477D27A660DA005C8F3A /* Main.storyboard */,
+				1DFE478027A660DB005C8F3A /* Assets.xcassets */,
+				1DFE478227A660DB005C8F3A /* LaunchScreen.storyboard */,
+				1DFE478527A660DB005C8F3A /* Info.plist */,
+			);
+			path = ComcastDemo;
+			sourceTree = "<group>";
+		};
+		1DFE478D27A660DC005C8F3A /* ComcastDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE478E27A660DC005C8F3A /* ComcastDemoTests.swift */,
+			);
+			path = ComcastDemoTests;
+			sourceTree = "<group>";
+		};
+		1DFE479727A660DC005C8F3A /* ComcastDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE479827A660DC005C8F3A /* ComcastDemoUITests.swift */,
+				1DFE479A27A660DC005C8F3A /* ComcastDemoUITestsLaunchTests.swift */,
+			);
+			path = ComcastDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DFE477327A660DA005C8F3A /* ComcastDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFE479E27A660DC005C8F3A /* Build configuration list for PBXNativeTarget "ComcastDemo" */;
+			buildPhases = (
+				1DFE477027A660DA005C8F3A /* Sources */,
+				1DFE477127A660DA005C8F3A /* Frameworks */,
+				1DFE477227A660DA005C8F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComcastDemo;
+			productName = ComcastDemo;
+			productReference = 1DFE477427A660DA005C8F3A /* ComcastDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DFE478927A660DC005C8F3A /* ComcastDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFE47A127A660DC005C8F3A /* Build configuration list for PBXNativeTarget "ComcastDemoTests" */;
+			buildPhases = (
+				1DFE478627A660DC005C8F3A /* Sources */,
+				1DFE478727A660DC005C8F3A /* Frameworks */,
+				1DFE478827A660DC005C8F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DFE478C27A660DC005C8F3A /* PBXTargetDependency */,
+			);
+			name = ComcastDemoTests;
+			productName = ComcastDemoTests;
+			productReference = 1DFE478A27A660DC005C8F3A /* ComcastDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DFE479327A660DC005C8F3A /* ComcastDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFE47A427A660DC005C8F3A /* Build configuration list for PBXNativeTarget "ComcastDemoUITests" */;
+			buildPhases = (
+				1DFE479027A660DC005C8F3A /* Sources */,
+				1DFE479127A660DC005C8F3A /* Frameworks */,
+				1DFE479227A660DC005C8F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DFE479627A660DC005C8F3A /* PBXTargetDependency */,
+			);
+			name = ComcastDemoUITests;
+			productName = ComcastDemoUITests;
+			productReference = 1DFE479427A660DC005C8F3A /* ComcastDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DFE476C27A660DA005C8F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1DFE477327A660DA005C8F3A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1DFE478927A660DC005C8F3A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1DFE477327A660DA005C8F3A;
+					};
+					1DFE479327A660DC005C8F3A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1DFE477327A660DA005C8F3A;
+					};
+				};
+			};
+			buildConfigurationList = 1DFE476F27A660DA005C8F3A /* Build configuration list for PBXProject "ComcastDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DFE476B27A660DA005C8F3A;
+			productRefGroup = 1DFE477527A660DA005C8F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DFE477327A660DA005C8F3A /* ComcastDemo */,
+				1DFE478927A660DC005C8F3A /* ComcastDemoTests */,
+				1DFE479327A660DC005C8F3A /* ComcastDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFE477227A660DA005C8F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE478427A660DB005C8F3A /* LaunchScreen.storyboard in Resources */,
+				1DFE478127A660DB005C8F3A /* Assets.xcassets in Resources */,
+				1DFE477F27A660DA005C8F3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE478827A660DC005C8F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE479227A660DC005C8F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DFE477027A660DA005C8F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE477C27A660DA005C8F3A /* ViewController.swift in Sources */,
+				1DFE477827A660DA005C8F3A /* AppDelegate.swift in Sources */,
+				1DFE477A27A660DA005C8F3A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE478627A660DC005C8F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE478F27A660DC005C8F3A /* ComcastDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE479027A660DC005C8F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE479B27A660DC005C8F3A /* ComcastDemoUITestsLaunchTests.swift in Sources */,
+				1DFE479927A660DC005C8F3A /* ComcastDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DFE478C27A660DC005C8F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DFE477327A660DA005C8F3A /* ComcastDemo */;
+			targetProxy = 1DFE478B27A660DC005C8F3A /* PBXContainerItemProxy */;
+		};
+		1DFE479627A660DC005C8F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DFE477327A660DA005C8F3A /* ComcastDemo */;
+			targetProxy = 1DFE479527A660DC005C8F3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DFE477D27A660DA005C8F3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFE477E27A660DA005C8F3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DFE478227A660DB005C8F3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFE478327A660DB005C8F3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DFE479C27A660DC005C8F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DFE479D27A660DC005C8F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DFE479F27A660DC005C8F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComcastDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobin.ComcastDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DFE47A027A660DC005C8F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComcastDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobin.ComcastDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DFE47A227A660DC005C8F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobin.ComcastDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComcastDemo.app/ComcastDemo";
+			};
+			name = Debug;
+		};
+		1DFE47A327A660DC005C8F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobin.ComcastDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComcastDemo.app/ComcastDemo";
+			};
+			name = Release;
+		};
+		1DFE47A527A660DC005C8F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobin.ComcastDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComcastDemo;
+			};
+			name = Debug;
+		};
+		1DFE47A627A660DC005C8F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobin.ComcastDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComcastDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DFE476F27A660DA005C8F3A /* Build configuration list for PBXProject "ComcastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE479C27A660DC005C8F3A /* Debug */,
+				1DFE479D27A660DC005C8F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFE479E27A660DC005C8F3A /* Build configuration list for PBXNativeTarget "ComcastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE479F27A660DC005C8F3A /* Debug */,
+				1DFE47A027A660DC005C8F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFE47A127A660DC005C8F3A /* Build configuration list for PBXNativeTarget "ComcastDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE47A227A660DC005C8F3A /* Debug */,
+				1DFE47A327A660DC005C8F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFE47A427A660DC005C8F3A /* Build configuration list for PBXNativeTarget "ComcastDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE47A527A660DC005C8F3A /* Debug */,
+				1DFE47A627A660DC005C8F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DFE476C27A660DA005C8F3A /* Project object */;
+}
